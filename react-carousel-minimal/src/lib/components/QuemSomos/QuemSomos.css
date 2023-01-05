@@ -1,0 +1,201 @@
+.quemsomosvidio {
+
+    position: absolute;
+    width: 100%;
+    height: 553px;
+    left: 0px;
+    top: 593px;
+
+    background: linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
+
+}
+
+iframe {
+    position: absolute;
+    width: 641px;
+    height: 466.5px;
+    left: 83px;
+    top: 37px;
+   
+
+    left: 83px;
+}
+
+.quemsomos h6 {
+
+    position: absolute;
+
+    left: 763px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+
+
+    color: #525252;
+
+
+
+}
+.barraquemsomos{
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    width: 5px;
+    height: 40px;
+    background-color: #525252;
+}
+.quemsomos p {
+    position: absolute;
+    left: 759px;
+    top: 100px;
+    right: 83px;
+
+    font-family: 'Poppins' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.circulo1 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 759px;
+    top: 316px;
+    background: #20B1C1;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 100px;  
+    color: #F5F5F5;
+}
+
+.circulo2 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 960px;
+    top: 316px;
+    background: #20B1C1;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 100px; 
+    color: #F5F5F5;
+}
+
+.circulo3 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1161px;
+    top: 316px;
+    background: #20B1C1;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 100px; 
+    color: #F5F5F5;
+}
+.circulo1 p {
+    position: absolute;
+    top: 50px;
+}
+.circulo2 p {
+    position: absolute;
+    top: 30px;
+}
+.circulo3 p {
+    position: absolute;
+    top: 50px;
+}
+@media screen and (max-width: 360px){
+    .quemsomos h6 {
+        top: -60px;
+        left: 40px;
+    }
+    .barraquemsomos{
+        top:10px;
+        left: 30px;
+    }
+    .quemsomos p {
+        top: 70px;
+        left: 20px;
+        width: 80%;
+        font-size: 14px;
+        line-height: 14px;
+        
+    }
+
+    .quemsomosvidio {
+      height: 700px;
+     top: 362px;
+    }
+    iframe{
+        position: absolute;
+        left: 5%;
+        top:101%;
+    
+       width: 90%;
+       height: 20%;
+    }
+    .circulo1{
+        position: absolute;
+ top: 43%;
+ left: 30%;
+ width: 120px;
+ height: 120px;
+    }
+    .circulo1 p{
+        font-size: 19px;
+top: 14px;
+    }
+
+
+    .circulo2{
+        position: absolute;
+        top: 63%;
+        
+        left: 30%;
+        width: 120px;
+        height: 120px;
+    }
+    .circulo2 p{
+        font-size: 19px;
+        top: -10px;
+    }
+
+
+
+
+    .circulo3{
+        position: absolute;
+        top:82%;
+        left: 30%;
+        width: 120px;
+        height: 120px;
+    }
+    .circulo3 p{
+        font-size: 19px;
+        top: 15px;
+    }
+}
