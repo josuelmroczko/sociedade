@@ -1,6 +1,7 @@
 import "./App.css";
 import { Carousel } from "./lib";
 import BotoesTopo from './lib/components/hender/index';
+import QuemSomos from './lib/components/Quemsomos/index';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 
   const captionStyle = {
     fontSize: "15px",
+    top:"20px",
   
   };
   const slideNumberStyle = {
@@ -78,6 +80,8 @@ function App() {
          
             }}
           />
+
+          <QuemSomos/>
         </div>
       </div>
     </div>

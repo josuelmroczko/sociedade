@@ -2,6 +2,7 @@
 
     position: absolute;
     width: 100%;
+    max-width: 1440px;
     height: 553px;
     left: 0px;
     top: 593px;
@@ -42,7 +43,7 @@ iframe {
 .barraquemsomos{
     position: absolute;
     left: 750px;
-    top: 0px;
+    top: 60px;
     width: 5px;
     height: 40px;
     background-color: #525252;

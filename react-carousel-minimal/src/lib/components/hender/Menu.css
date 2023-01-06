@@ -5,6 +5,7 @@
 }
 .pagina{
  width: 100%;
+ max-width: 1440px;
  height: 100px;   
  background-color: rgb(255, 255, 255);
 
