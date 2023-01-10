@@ -1,7 +1,8 @@
 import "./App.css";
 import { Carousel } from "./lib";
 import BotoesTopo from './lib/components/hender/index';
-import QuemSomos from './lib/components/Quemsomos/index';
+import QuemSomos from './lib/components/QuemSomos/index';
+
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
         <>
         <BotoesTopo/>
        
-      
+      <QuemSomos/>
       </>
  
 
@@ -81,7 +82,7 @@ function App() {
             }}
           />
 
-          <QuemSomos/>
+         
         </div>
       </div>
     </div>
