@@ -44,12 +44,13 @@ function App() {
   };
   return (
     <div className="App">
-      <div style={{ textAlign: "center" }}>
-        <>
-        <BotoesTopo/>
-       
+      <BotoesTopo/>
       <QuemSomos/>
-      </>
+
+
+
+      <div style={{ textAlign: "center" }}>
+       
  
 
         <div
