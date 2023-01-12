@@ -130,7 +130,11 @@ iframe {
     position: absolute;
     top: 50px;
 }
-@media screen and (max-width: 1344px){
+@media screen and (max-width: 1115px){
+    .quemsomosvidio {
+        position: absolute;
+        top: 520px;
+    }
     .quemsomos h6 {
 
         left: 130px;
@@ -143,13 +147,13 @@ iframe {
         left: 100px;
     }
     .circulo1 {
-       left: 10%;
+       left: 15%;
     }
     .circulo2 {
     left: 45%;
     }
     .circulo3{
-left: 80%;
+left: 75%;
     }
     iframe{
         position: absolute;
@@ -161,6 +165,56 @@ left: 80%;
     }
 }
 
+@media screen and (max-width: 800px){
+
+   
+    .quemsomos h6 {
+
+  
+        
+    }
+  
+    .quemsomos p{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+        left: 10px;
+        width: 90%;
+    }
+    .circulo1{
+        left: 3%;
+        top: 400px;
+    width: 120px;
+    height:120px;
+    }
+    .circulo1 p{
+        top: 10px;
+    }
+    .circulo2 {
+        left: 35%;
+        top: 400px;
+        width: 120px;
+        height:120px;
+    }
+    .circulo2 p{
+        top: -10px;
+        left: -10px;
+    }
+    .circulo3{
+        left: 67%;
+        top: 400px;
+        width: 120px;
+        height:120px;
+    }
+    .circulo3 p{
+        top: -5px;
+    }
+
+}
 
 
 
@@ -168,7 +222,7 @@ left: 80%;
 
 @media screen and (max-width: 360px){
     .quemsomos h6 {
-        top: -60px;
+        top: 12px;
         left: 40px;
     }
     .barraquemsomos{
@@ -186,7 +240,7 @@ left: 80%;
 
     .quemsomosvidio {
       height: 700px;
-     top: 362px;
+     top: 320px;
     }
     iframe{
         position: absolute;
