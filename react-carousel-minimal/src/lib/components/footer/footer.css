@@ -1,0 +1,49 @@
+.rodape{
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+     top: 1140px;
+     left: 0;
+
+
+}
+footer img{
+    position: relative;
+width: 100%;
+
+height: 240px;
+}
+.conteudofooter {
+
+    position: absolute;
+    top: 0px;
+    
+    width: 100%;
+    height: 240px;
+    opacity: 0.8;
+    background-color:  #525252;
+}
+
+ .ul-footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: -20px;
+ 
+    
+
+    
+}
+.ul-footer li{
+   position: relative;
+    text-align: center;
+    width: 400px;
+    list-style: none;
+    top: 0px;
+ }   
+.titulos-footer{
+    color: #FE6C05;
+}
+
+

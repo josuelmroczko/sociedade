@@ -243,7 +243,7 @@ function Carousel({
           {data.map((item, index) => {
             return (
               <img
-                width={thumbnailWidth ? thumbnailWidth : "100px"}
+                width={thumbnailWidth ? thumbnailWidth : "0px"}
                 src={item.image}
                 alt={item.caption}
                 className="thumbnail"
