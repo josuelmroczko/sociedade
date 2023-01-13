@@ -8,6 +8,7 @@ import Rodape from "./lib/components/footer";
 
 
 function App() {
+  
   const data = [
     {
       image: foto1,
@@ -43,10 +44,11 @@ function App() {
     
   };
   return (
+    
     <div >
    
    <BotoesTopo/>
-      <QuemSomos/>
+   <QuemSomos/>
       <Rodape/>
 
       <div style={{ textAlign: "center" }}>
@@ -58,6 +60,7 @@ function App() {
            
           }}
         >
+          
           <Carousel
             data={data}
             time={2000}

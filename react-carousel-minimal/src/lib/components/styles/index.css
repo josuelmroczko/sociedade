@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 .carousel-image {
   vertical-align: middle;
@@ -9,7 +12,7 @@
 .carousel-container {
   position: relative;
   margin: auto;
-  top: -260px;
+  top: 40px;
 }
 
 .carousel-item {
@@ -178,7 +181,7 @@ color: #FE6C05;
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1080px) {
   .prev,
   .next,
   .carousel-caption-bottom, 
@@ -192,16 +195,15 @@ color: #FE6C05;
     height: 4px;
     width: 4px;
   }
-  .carousel-container{
-    max-height: 420px !important;
-  }
 
-  .carousel-caption-bottom{
-    bottom: 25px;
-  
-  }
+
+
 }
 @media only screen and (max-width: 1000px){
+  .carousel-container{
+    
+    top: 40px;
+  }
 
 .carousel-caption-bottom {
 position: absolute;
@@ -212,14 +214,67 @@ background-color: #f5f5f5;
 opacity: 0.9;
 right: 5%;
 
-top: 10px;
+top: 15px;
  
 
 
 }
 }
+@media(max-width: 800px){
 
-@media(max-width: 500px){
+  h3{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    border-left:3px solid #FE6C05 ;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  
+  
+   }
+   p{
+    position: absolute;
+    font-size: 12px;
+    padding: 10px;
+    top: 65px ;
+   }
+  
+  
+   .prev,
+    .next,
+    .carousel-caption-bottom, 
+    .carousel-caption-center, 
+    .carousel-caption-top, 
+    .slide-number 
+    {
+      font-size: 12px !important;
+    }
+    .dot {
+      height: 4px;
+      width: 4px;
+    }
+    .carousel-container{
+      max-height: 420px !important;
+      top: -250px;
+    }
+    .carousel-caption-bottom{
+      top: 70px;
+    }
+  
+  
+    
+    }
+
+
+
+
+
+@media(max-width: 360px){
+  .carousel-caption-bottom{
+    top: 20px;
+  }
+
 h3{
   position: absolute;
   top: 8px;
@@ -227,6 +282,7 @@ h3{
   border-left:3px solid #FE6C05 ;
 font-size: 15px;
 text-align: left;
+line-height: 20px;
 
 
  }
@@ -236,4 +292,26 @@ text-align: left;
   padding: 10px;
   top: 65px ;
  }
-}
+
+
+ .prev,
+  .next,
+  .carousel-caption-bottom, 
+  .carousel-caption-center, 
+  .carousel-caption-top, 
+  .slide-number 
+  {
+    font-size: 12px !important;
+  }
+  .dot {
+    height: 4px;
+    width: 4px;
+  }
+  .carousel-container{
+    max-height: 240px !important;
+    top: -250px;
+  }
+
+
+  
+  }

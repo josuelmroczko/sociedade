@@ -5,7 +5,7 @@
     max-width: 1440px;
     height: 553px;
     left: 0px;
-    top: 600px;
+    top: 588px;
 
     background: linear-gradient(180deg, #63B2BB 34.11%, rgba(224, 125, 37, 0.58) 100%);
 
@@ -28,7 +28,7 @@ iframe {
     position: absolute;
 
     left: 763px;
-    top: 0px;
+    top: 65px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -51,10 +51,10 @@ iframe {
 }
 .quemsomos p {
     position: absolute;
-    left: 759px;
-    top: 100px;
+    left: 700px;
+    top: 90px;
     right: 83px;
-
+    width: 600px;
     font-family: 'Poppins' ;
     font-style: normal;
     font-weight: 500;
@@ -119,20 +119,20 @@ iframe {
     color: #F5F5F5;
 }
 .circulo1 p {
-    position: absolute;
-    top: 40px;
+   
+    top: 60px;
 }
 .circulo2 p {
     position: absolute;
-    top: 10px;
+    bottom: 60px;
 }
 .circulo3 p {
     position: absolute;
-    top: 40px;
+    top: 60px;
 }
 
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1300px){
     .quemsomosvidio {
         position: absolute;
         top: 600px;
@@ -146,16 +146,39 @@ iframe {
         left: 120px;
     }
     .quemsomos p{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
         left: 100px;
     }
     .circulo1 {
+        width: 120px;
+        height: 120px;
        left: 15%;
     }
     .circulo2 {
+        width: 120px;
+        height: 120px;
     left: 45%;
     }
     .circulo3{
+        width: 120px;
+        height: 120px;
 left: 75%;
+    }
+    .circulo1 p{
+        top: 0px;
+    }
+    .circulo2 p{
+        left: -10px;
+        top: -10px;
+    }
+    .circulo3 p{
+        top: -10px;
     }
     iframe{
         position: absolute;
@@ -197,7 +220,7 @@ color: #FFFFFF;
     height:120px;
     }
     .circulo1 p{
-        top: -10px;
+        top: 0px;
     }
     .circulo2 {
         left: 35%;
@@ -218,6 +241,12 @@ color: #FFFFFF;
     .circulo3 p{
         top: -25px;
     }
+    iframe{
+        
+        height: 320px;
+        
+    }
+ 
 
 }
 
@@ -227,7 +256,7 @@ color: #FFFFFF;
     
     .circulo1 p{
         font-size: 19px;
-top: 0px;
+top: 20px;
     }
 
 
@@ -235,7 +264,7 @@ top: 0px;
     }
     .circulo2 p{
         font-size: 19px;
-        top: -20px;
+        top: 0px;
     }
 
 
@@ -244,7 +273,7 @@ top: 0px;
     
     .circulo3 p{
         font-size: 19px;
-        top: -20px;
+        top: 0px;
     }
 
 
@@ -260,11 +289,11 @@ top: 0px;
         left: 30px;
     }
     .quemsomos p {
-        top: 70px;
+        top: 75px;
         left: 20px;
         width: 80%;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         
     }
 
@@ -289,7 +318,7 @@ top: 0px;
     }
     .circulo1 p{
         font-size: 19px;
-top: 0px;
+top: 20px;
     }
 
 
@@ -303,7 +332,7 @@ top: 0px;
     }
     .circulo2 p{
         font-size: 19px;
-        top: -20px;
+        top: -0px;
     }
 
 
@@ -318,6 +347,6 @@ top: 0px;
     }
     .circulo3 p{
         font-size: 19px;
-        top: -20px;
+        top: -0px;
     }
 }

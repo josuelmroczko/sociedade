@@ -13,11 +13,12 @@ function QuemSomos (){
 <div className="barraquemsomos"></div>
 <h6>QUEM SOMOS </h6>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nulla mi. 
-    Suspendisse finibus mauris vitae varius finibus. Fusce fermentum nisi justo, qui
-    s interdum tellus semper quis. Ut lobortis risus dui, sit amet mattis lectus cursus 
-    sed. Praesent est neque, ultricies at nulla non,
- varius laoreet velit. Fusce ultricies nibh non convallis vestibulum. </p>
+<p>Somos uma organização não-governamental com sede em Duque de Caxias-RJ.
+Atualmente a instituição é formada por uma equipe de mais de 50 voluntários, das
+áreas de RH, Pedagogia, Publicidade e Marketing e Tecnologia.
+Temos o programa Trilha de Carreira, que visa o desenvolvimento pessoal e
+profissional através do nosso ambiente de voluntariado, funcionando como um
+laboratório de experiências profissionais. </p>
 
 
 </div>
