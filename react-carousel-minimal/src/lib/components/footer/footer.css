@@ -2,7 +2,7 @@
     position: relative;
     max-width: 1440px;
     width: 100%;
-     top: 1140px;
+     top: 1000px;
      left: 0;
 
 
@@ -40,10 +40,20 @@ height: 240px;
     text-align: center;
     width: 400px;
     list-style: none;
-    top: 0px;
+    top: -100px;
  }   
 .titulos-footer{
     color: #FE6C05;
+}
+.rodapetexto{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: rgba(245, 245, 245, 0.8);
 }
 
 
