@@ -140,12 +140,15 @@ color: rgba(245, 245, 245, 0.8);
 }
 
 @media screen and (max-width: 500px){
-    .ul-footer  {
-      
-flex-direction: column;
+ 
+    .ul-footer li  {
+  
+  flex-direction: column;
+margin: 54px;
+}
 
         
-}
+
 
 
 }
