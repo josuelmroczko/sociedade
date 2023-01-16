@@ -18,7 +18,7 @@ iframe {
     height: 466.5px;
     left: 83px;
     top: 37px;
-   
+
 
     left: 83px;
 }
@@ -41,7 +41,8 @@ iframe {
 
 
 }
-.barraquemsomos{
+
+.barraquemsomos {
     position: absolute;
     left: 750px;
     top: 60px;
@@ -49,13 +50,14 @@ iframe {
     height: 40px;
     background-color: #525252;
 }
+
 .quemsomos p {
     position: absolute;
     left: 700px;
     top: 90px;
     right: 83px;
     width: 600px;
-    font-family: 'Poppins' ;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -79,7 +81,7 @@ iframe {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    border-radius: 100px;  
+    border-radius: 100px;
     color: #F5F5F5;
 }
 
@@ -97,7 +99,7 @@ iframe {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    border-radius: 100px; 
+    border-radius: 100px;
     color: #F5F5F5;
 }
 
@@ -115,222 +117,327 @@ iframe {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    border-radius: 100px; 
+    border-radius: 100px;
     color: #F5F5F5;
 }
+
 .circulo1 p {
-   
-    top: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #F5F5F5;
+    top: 50px;
+
 }
+
 .circulo2 p {
-    position: absolute;
-    bottom: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #F5F5F5;
+    padding-top: 50px;
 }
+
 .circulo3 p {
-    position: absolute;
-    top: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #F5F5F5;
+    padding-top: 70px;
+
 }
 
 
-@media screen and (max-width: 1300px){
+
+
+
+@media screen and (max-width: 1350px) {
+    iframe {
+        position: absolute;
+        width: 100%;
+        max-width: 470px;
+        height: 300px;
+        top: 37px;
+        left: 10px;
+    }
+
+    .quemsomos h6 {
+
+        position: absolute;
+
+        left: 600px;
+        top: 65px;
+
+
+
+
+
+    }
+
+    .barraquemsomos {
+        position: absolute;
+        left: 590px;
+        top: 60px;
+        width: 5px;
+        height: 40px;
+
+    }
+
+    .quemsomos p {
+        position: absolute;
+        left: 48%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50%;
+        top: 90px;
+        right: 83px;
+
+    }
+
+    .circulo1 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 49%;
+        top: 350px;
+
+    }
+
+    .circulo2 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 65%;
+        top: 350px;
+
+
+
+    }
+
+    .circulo3 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 81%;
+        top: 350px;
+
+
+    }
+
+    .circulo1 p {
+
+        top: 10px;
+
+    }
+
+    .circulo2 p {
+
+
+        padding-top: 30px;
+    }
+
+    .circulo3 p {
+
+
+        padding-top: 30px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
     .quemsomosvidio {
         position: absolute;
-        top: 600px;
+        top: 510px;
     }
+
     .quemsomos h6 {
+        top: 30px;
+        left: 20%;
 
-        left: 130px;
-        
     }
-    .barraquemsomos{
-        left: 120px;
+
+    .barraquemsomos {
+        top: 30px;
+        left: 18%;
     }
-    .quemsomos p{
+
+    .quemsomos p {
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
 
-color: #FFFFFF;
-        left: 100px;
-    }
-    .circulo1 {
-        width: 120px;
-        height: 120px;
-       left: 15%;
-    }
-    .circulo2 {
-        width: 120px;
-        height: 120px;
-    left: 45%;
-    }
-    .circulo3{
-        width: 120px;
-        height: 120px;
-left: 75%;
-    }
-    .circulo1 p{
-        top: 0px;
-    }
-    .circulo2 p{
-        left: -10px;
-        top: -10px;
-    }
-    .circulo3 p{
-        top: -10px;
-    }
-    iframe{
-        position: absolute;
-        left: 5%;
-        top:101%;
-    
-       width: 90%;
-       height: 20%;
-    }
-}
-
-@media screen and (max-width: 1000px){
-.quemsomosvidio {
-        position: absolute;
-        top: 500px;
-    }
-   
-    .quemsomos h6 {
-
-  
-        
-    }
-  
-    .quemsomos p{
-        font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-
-color: #FFFFFF;
+        color: #FFFFFF;
         left: 10px;
         width: 90%;
+        top: 60px;
     }
-    .circulo1{
+
+    .circulo1 {
         left: 3%;
         top: 400px;
-    width: 120px;
-    height:120px;
+        width: 120px;
+        height: 120px;
     }
-    .circulo1 p{
+
+    .circulo1 p {
+        font-size: 19.4118px;
+        line-height: 23px;
         top: 0px;
     }
+
     .circulo2 {
+
         left: 35%;
         top: 400px;
         width: 120px;
-        height:120px;
+        height: 120px;
     }
-    .circulo2 p{
+
+    .circulo2 p {
+        font-size: 19.4118px;
+        line-height: 23px;
         top: -25px;
         left: -10px;
     }
-    .circulo3{
+
+    .circulo3 {
         left: 67%;
         top: 400px;
         width: 120px;
-        height:120px;
+        height: 120px;
     }
-    .circulo3 p{
+
+    .circulo3 p {
+        font-size: 19.4118px;
+        line-height: 23px;
         top: -25px;
     }
-    iframe{
-        
+
+    iframe {
+        top: 555px;
         height: 320px;
-        
+        width: 100%;
+        left: 0;
+
     }
- 
+
 
 }
 
 
 
 @media screen and (max-width: 500px) {
-    
-    .circulo1 p{
+    .quemsomosvidio{
+        height: 700px;
+        top: 300px;
+    }
+
+    .circulo1 p {
         font-size: 19px;
-top: 20px;
-    }
-
-
-     
-    }
-    .circulo2 p{
-        font-size: 19px;
-        top: 0px;
+        top: 20px;
     }
 
 
 
+}
 
-    
-    .circulo3 p{
-        font-size: 19px;
-        top: 0px;
-    }
-
-
+.circulo2 p {
+    font-size: 19px;
+    top: 0px;
+}
 
 
-@media screen and (max-width: 360px){
+
+
+
+.circulo3 p {
+    font-size: 19px;
+    top: 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 416px) {
     .quemsomos h6 {
         top: 12px;
         left: 40px;
     }
-    .barraquemsomos{
-        top:10px;
+
+    .barraquemsomos {
+        top: 10px;
         left: 30px;
     }
+
     .quemsomos p {
-        top: 75px;
+        
+        top: 50px;
         left: 20px;
         width: 80%;
         font-size: 14px;
         line-height: 20px;
-        
+
     }
 
     .quemsomosvidio {
-      height: 700px;
-     top: 320px;
+        height: 700px;
+        top: 300px;
     }
-    iframe{
+
+    iframe {
         position: absolute;
         left: 5%;
-        top:101%;
-    
-       width: 90%;
-       height: 20%;
-    }
-    .circulo1{
-        position: absolute;
- top: 43%;
- left: 30%;
- width: 120px;
- height: 120px;
-    }
-    .circulo1 p{
-        font-size: 19px;
-top: 20px;
+        top: 101%;
+
+        width: 90%;
+        height: 20%;
     }
 
-
-    .circulo2{
+    .circulo1 {
         position: absolute;
-        top: 63%;
-        
+        top: 46%;
         left: 30%;
         width: 120px;
         height: 120px;
     }
-    .circulo2 p{
+
+    .circulo1 p {
+        font-size: 19px;
+        top: 20px;
+    }
+
+
+    .circulo2 {
+        position: absolute;
+        top: 64%;
+
+        left: 30%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .circulo2 p {
         font-size: 19px;
         top: -0px;
     }
@@ -338,14 +445,15 @@ top: 20px;
 
 
 
-    .circulo3{
+    .circulo3 {
         position: absolute;
-        top:82%;
+        top: 82%;
         left: 30%;
         width: 120px;
         height: 120px;
     }
-    .circulo3 p{
+
+    .circulo3 p {
         font-size: 19px;
         top: -0px;
     }
