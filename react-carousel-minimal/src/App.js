@@ -7,6 +7,7 @@ import foto2 from '../src/img2.jpg'
 import Rodape from "./lib/components/footer";
 
 
+
 function App() {
   
   const data = [

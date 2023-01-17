@@ -1,41 +1,42 @@
-
-.pagina{
+.pagina {
     position: relative;
- width: 100%;
- max-width: 1440px;
- max-height: 100px; 
- padding: 0;
- margin: 0;  
- background-color: rgb(255, 255, 255);
- 
+    width: 100%;
+    max-width: 1440px;
+    max-height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+
 
 }
-.logo{
+
+.logo {
     position: absolute;
-    
+
     max-width: 100px;
     max-height: 100px;
     top: 0;
-    left: 2%;  
-    
-}
-ul{
-    
- position: relative;
- display: flex;
- justify-content: center;
- 
-
-
- display: flex;
- top: 39px;
-
-    
-   
+    left: 2%;
 
 }
 
-.menus{
+ul {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+
+    display: flex;
+    top: 39px;
+
+
+
+
+}
+
+.menus {
     list-style: none;
     border-right: 2px solid rgb(206, 200, 200);
     padding-right: 15px;
@@ -43,74 +44,75 @@ ul{
 
 
 }
-.doemobile{
-    position: relative;
 
-    display: flex;
-    justify-content: end;
+.doemobile {
+    position: relative;
+    width: 115px;
+    left: 80%;
     top: 10px;
     padding-right: 100px;
- 
 
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15.3482px;
 
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3482px;
 
-text-align: center;
+    /* identical to box height */
 
-color: #FFFFFF;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 
-a{
+a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     /* identical to box height */
-    
+
     text-align: center;
     text-decoration: none;
     color: #525252;
 }
 
 @media (max-width:1030px) {
-    ul{
+    ul {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         padding-left: 10px;
-        
+
 
     }
-    
-    .doemobile{
-        position:relative;
+
+    .doemobile {
+        position: relative;
         display: flex;
         justify-content: end;
         padding-right: 9px;
         top: 10px;
     }
-    a{
+
+    a {
         font-size: 15px
     }
 }
 
 
 @media (max-width:710px) {
-    .menus{
+    .menus {
         list-style: none;
         border-right: 2px solid rgb(206, 200, 200);
         padding-right: 5px;
         padding-left: 5px;
     }
-       
- 
-    a{
+
+
+    a {
         font-size: 15px
     }
 }
@@ -119,20 +121,44 @@ a{
 
 
 @media (max-width:620px) {
-    ul{
+    ul {
         display: none;
     }
-    .doemobile{
-position: relative;
-    display: flex;
-    justify-content:end;
-    padding-right: 20px;
-    top: 35px;
-    
+
+    .doemobile {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: -10%;
+
+
+        top: 35px;
+
+
     }
-    a{
+
+    .logo {
+        top: -10px;
+    }
+
+    a {
         font-size: 12px;
     }
 }
 
+@media (max-width:380px) {
+    ul {
+        display: none;
+    }
 
+    .doemobile {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: -25%;
+
+
+
+
+    }
+}
